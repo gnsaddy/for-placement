@@ -52,7 +52,7 @@ long taxiDriver(vector<long> p, vector<long> d, vector<int> t)
         dp[i] = max(dp[i - 1], dp[i]);
         for (auto j : v[i])
         {
-            cout << "dp ---: " << dp[i - 1] << " : " << dp[i] << endl;
+            // cout << "dp ---: " << dp[i - 1] << " : " << dp[i] << endl;
             cout << "Before =>: " << dp[i] << "," << dp[j.fi] + j.se << endl;
             dp[i] = max(dp[i], dp[j.fi] + j.se);
             cout << "After =>: " << dp[i] << "," << dp[j.fi] + j.se << endl;
