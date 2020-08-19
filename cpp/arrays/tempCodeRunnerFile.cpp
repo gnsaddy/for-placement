@@ -1,0 +1,1 @@
+int n = sizeof(ar) / sizeof(ar[0]);
