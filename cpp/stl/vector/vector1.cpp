@@ -19,7 +19,7 @@ int main()
     vector<int>::iterator it = v1.begin();
     v1.insert(it, 10);
 
-    for (auto i : v1)
+    for (auto i : v3)
     {
         cout << i << endl;
     }
