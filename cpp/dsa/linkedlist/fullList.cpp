@@ -1,12 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct node
+class node
 {
+public:
     int data;
     node *next;
 };
-class ll
+class ll : public node
 {
 private:
     node *head, *tail;
@@ -42,6 +43,10 @@ public:
         cout << "Displaying list" << endl;
         node *temp = new node;
         temp = head;
+        if (temp == NULL)
+        {
+            cout << "\nList is Empty";
+        }
         while (temp != NULL)
         {
             cout << temp->data << "->";
@@ -121,6 +126,28 @@ public:
         }
         previous->next = current->next;
     }
+
+    void reverse()
+    {
+        // Initialize current, previous and
+        // next pointers
+        node *current = head;
+        node *prev = NULL, *next = NULL;
+
+        while (current != NULL)
+        {
+            // Store next
+            next = current->next;
+
+            // Reverse current node's pointer
+            current->next = prev;
+
+            // Move pointers one position ahead.
+            prev = current;
+            current = next;
+        }
+        head = prev;
+    }
 };
 int main()
 {
@@ -141,6 +168,8 @@ int main()
     obj.delete_last();
     obj.display();
     obj.delete_position(4);
+    obj.display();
+    obj.reverse();
     obj.display();
     return 0;
 }
