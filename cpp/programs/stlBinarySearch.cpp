@@ -81,6 +81,38 @@ void sets()
     }
     s.erase(110);
 }
+
+void test()
+{
+    // valarray<int> v{1, 5, 3, 4, 5};
+    valarray<int> v{4, 3, 2, 1, 4};
+    int tsum = v.sum();
+    int cur = 0;
+    for (int i = 0; i < v.size(); i++)
+    {
+        cur = cur + v[i];
+        cout << cur << endl;
+        if (cur == tsum / 2)
+        {
+            for (int j = 0; j < v[i]; j++)
+            {
+                cout << v[j] << " ";
+            }
+            cout << endl;
+            for (int j = v[i]; j < v.size(); j++)
+            {
+                cout << v[j] << " ";
+            }
+            cout << endl;
+            exit(0);
+        }
+        if (cur == tsum)
+        {
+            cout << "Not possible" << endl;
+        }
+    }
+}
 int main()
 {
+    test();
 }

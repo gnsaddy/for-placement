@@ -116,17 +116,22 @@ struct Node *deleteNode(struct Node *root, int key)
 }
 int main()
 {
-    struct Node *root = NULL;
-    root = insert(root, 14);
-    root = insert(root, 8);
-    root = insert(root, 3);
-    root = insert(root, 1);
-    root = insert(root, 6);
-    root = insert(root, 7);
-    root = insert(root, 10);
-    root = insert(root, 14);
-    root = insert(root, 4);
-    root = insert(root, 2);
+    struct Node *root = newNode(15);
+    root->left = newNode(10);
+    root->right = newNode(16);
+    root->left->left = newNode(8);
+    // root = insert(root, 14);
+    // root = insert(root, 8);
+    // root = insert(root, 3);
+    // root = insert(root, 1);
+    // root = insert(root, 6);
+    // root = insert(root, 7);
+    // root = insert(root, 10);
+    // root = insert(root, 14);
+    // root = insert(root, 4);
+    // root = insert(root, 2);
+    
+    deleteNode(root, 8);
 
     // cout << root->data;
     cout << "Inorder traversal ";
