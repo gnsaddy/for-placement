@@ -14,7 +14,7 @@ void subArraySum(int arr[], int n, int sum)
     for (int i = 0; i < n; i++)
     {
         curr_sum = curr_sum + arr[i];
-        // cout << curr_sum << endl;
+        // cout << "--" << curr_sum << endl;
 
         // if curr_sum is equal to target sum
         // we found a subarray starting from index 0
@@ -30,6 +30,7 @@ void subArraySum(int arr[], int n, int sum)
         // we have found a subarray with target sum
         if (map.find(curr_sum - sum) != map.end())
         {
+            // cout << "--" << curr_sum - sum << endl;
             cout << "Sum found between indexes "
                  << map[curr_sum - sum] + 1
                  << " to " << i << endl;
@@ -45,9 +46,9 @@ void subArraySum(int arr[], int n, int sum)
 // Driver program to test above function
 int main()
 {
-    int arr[] = {1, 2, 1, 7, 1};
+    int arr[] = {1, 4, 20, 3, 10, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
-    int sum = 12;
+    int sum = 33;
 
     subArraySum(arr, n, sum);
 
