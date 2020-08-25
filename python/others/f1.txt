@@ -1,0 +1,14 @@
+The cat command (short for “concatenate”) lists the contents of files to the terminal window. 
+This is faster than opening the file in an editor, and there’s no chance you can accidentally alter the file.
+
+With files longer than the number of lines in your terminal window, the text will whip past too fast for you to read.
+
+ You can pipe the output from cat through less to make the process more manageable.  With less you can scroll forward
+  and backward through the file using the Up and Down Arrow keys, the PgUp and PgDn keys, and the Home and End keys. 
+  Type q to quit from less.
+
+  The cat command (short for “concatenate”) lists the contents of files to the terminal window. 
+This is faster than opening the file in an editor, and there’s no chance you can accidentally alter the file.
+
+With files longer than the number of lines in your terminal window, the text will whip past too fast for you to read.
+
