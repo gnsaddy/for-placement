@@ -1,0 +1,33 @@
+2 Mar 2014 23:27:34 GMT: Bible - D/Misc Success initializing backup manager
+2 Mar 2014 23:27:34 GMT: Bible - W/Misc creating youversion database version 1
+2 Mar 2014 23:27:34 GMT: Bible - W/Misc creating table metadata
+2 Mar 2014 23:27:34 GMT: Bible - I/Misc opening youversion database version 1
+2 Mar 2014 23:27:34 GMT: Bible - W/Misc creating table bookmarks
+2 Mar 2014 23:27:34 GMT: Bible - W/Misc creating index(es) on bookmarks
+2 Mar 2014 23:27:34 GMT: Bible - W/Misc creating table searchsuggestions
+2 Mar 2014 23:27:35 GMT: Bible - W/Misc creating index(es) on searchsuggestions
+2 Mar 2014 23:27:35 GMT: Bible - I/Misc upgrade from 0 to 199 requested
+2 Mar 2014 23:27:35 GMT: Bible - D/Misc requesting preference backup
+2 Mar 2014 23:27:35 GMT: Bible - I/Misc upgrade to 199 complete
+2 Mar 2014 23:27:35 GMT: Bible - I/Misc BibleApp.onCreate
+2 Mar 2014 23:27:35 GMT: Bible - D/Misc cacheConfiguration
+2 Mar 2014 23:27:35 GMT: Bible - D/Misc AJAX cache miss: http://bible.youversionapi.com/3.0/configuration.json
+2 Mar 2014 23:27:35 GMT: Bible - D/Misc TelemetryMetrics.init
+2 Mar 2014 23:27:35 GMT: Bible - D/Misc AJAX cache miss: https://lifechurch-geoip.appspot.com/json/
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc could not cache configuration
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc YouVersionApiException: network error
+2 April 2014 23:27:36 GMT: Bible - E/Misc com.youversion.mobile.android.ApiHelper.getStatusException(ApiHelper.java:183)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc com.sirma.mobile.bible.android.BibleApp$2.callback(BibleApp.java:203)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc com.sirma.mobile.bible.android.BibleApp$2.callback(BibleApp.java:159)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc com.androidquery.callback.AbstractAjaxCallback.callback(AbstractAjaxCallback.java:506)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc com.androidquery.callback.AbstractAjaxCallback.afterWork(AbstractAjaxCallback.java:1299)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc com.androidquery.callback.AbstractAjaxCallback.run(AbstractAjaxCallback.java:998)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc android.os.Handler.handleCallback(Handler.java:587)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc android.os.Handler.dispatchMessage(Handler.java:92)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc android.os.Looper.loop(Looper.java:130)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc android.app.ActivityThread.main(ActivityThread.java:3701)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc java.lang.reflect.Method.invokeNative(Native Method)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc java.lang.reflect.Method.invoke(Method.java:507)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc com.android.internal.os.ZygoteInit.main(ZygoteInit.java:624)
+2 Mar 2014 23:27:36 GMT: Bible - E/Misc dalvik.system.NativeStart.main(Native Method)
