@@ -1,6 +1,3 @@
-import re
-
-
 def getcloumn(n, filename, where=None):
 
     if(n != '*' and where == None):
