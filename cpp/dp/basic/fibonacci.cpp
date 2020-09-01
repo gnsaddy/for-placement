@@ -42,7 +42,7 @@ int fibDP(int n)
 
 int main()
 {
-    int n = 8;
+    int n = 4;
 
     for (int i = 0; i <= n; i++)
         cout << fibRec(i) << " ";
