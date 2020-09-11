@@ -1,14 +1,6 @@
 '''
 287. Find the Duplicate Number
-Medium
 
-5417
-
-623
-
-Add to List
-
-Share
 Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
 
 There is only one duplicate number in nums, return this duplicate number.
@@ -54,5 +46,5 @@ def findDuplicate(nums) -> int:
             return v
 
 
-lst = [1, 2, 2, 3, 4]
+lst = [1, 2, 2, 3, 4,2]
 print(findDuplicate(lst))

@@ -32,3 +32,11 @@ for a, b in zip(l1, l2):
 
 # For padding lists of unequal length to the longest one
 # with None s use itertools.zip_longest
+
+import itertools
+
+alist = ['a1', 'a2', 'a3']
+blist = ['b1']
+clist = ['c1', 'c2', 'c3', 'c4']
+for a, b, c in itertools.zip_longest(alist, blist, clist):
+    print(a, b, c)

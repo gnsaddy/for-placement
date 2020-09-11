@@ -11,7 +11,7 @@ class ReversingString {
 
         // for(int i=str.length()-1;i>=0;i--){
 
-        //     System.out.print(str.charAt(i) + " ");
+        //     System.out.print(str.charAt(i) + "");
         // }
 
         // System.out.println("\n--------------");
@@ -19,19 +19,19 @@ class ReversingString {
 
 
         String[] strArray = str.toString().split(" ");
-        System.out.println(strArray.length);
+        // System.out.println(strArray.length);
 
         for(int i=0;i<strArray.length;i++){
             StringBuilder sb=new StringBuilder();  
         }
             
-        // for(int i=0; i<strArray.length; i++){ 
-        //     char[] s1 = strArray[i].toCharArray(); 
-        //     for (int j = s1.length-1; j>=0; j--){
-        //         System.out.print(s1[j]);
-        //     }
-        //         System.out.print(" ");
-        //     }
+        for(int i=0; i<strArray.length; i++){ 
+            char[] s1 = strArray[i].toCharArray(); 
+            for (int j = s1.length-1; j>=0; j--){
+                System.out.print(s1[j]);
+            }
+                System.out.print(" ");
+            }
             System.out.println(); 
     }
 }
