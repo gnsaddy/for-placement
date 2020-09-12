@@ -20,5 +20,6 @@ print(["".join(sorted(word, key=lambda x: x.lower()))
 
 
 # When using if/else together use them before the loop
-ae = [x if x in 'aeiou' else '*' for x in 'allahabad']
+ae = [x if not x in 'aeiou' else '' for x in 'allahabad']
 print(ae)
+print(''.join(ae))
