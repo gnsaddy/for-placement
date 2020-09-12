@@ -34,5 +34,3 @@ arr = [10, -2, -3, 4, -5, 9, 7, 8]
 n = len(arr)
 X = 0
 findFourElements(arr, n, X)
-
-# This is code is contributed by shubhamsingh10

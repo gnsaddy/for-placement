@@ -4,5 +4,5 @@ def get(s):
 
 
 if __name__ == '__main__':
-    s1 = "testing last word to get print"
+    s1 = "testing last word to get print to"
     get(s1)

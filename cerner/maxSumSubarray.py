@@ -48,5 +48,5 @@ def maxSubArray(nums):
 
 
 if __name__ == '__main__':
-    l1 = [1,2,3,-4,-2,-]
+    l1 = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
     print(maxSubArray(l1))
