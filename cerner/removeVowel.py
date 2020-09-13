@@ -8,7 +8,7 @@ def rvol(s1):
 
 
 if __name__ == '__main__':
-    s1 = "allahabadABCDEI"
+    s1 = "allahabad"
     rvol(str(s1))
 
 

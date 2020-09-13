@@ -6,9 +6,12 @@ def findFourElements(arr, n, X):
 
     # Store summs of all pairs in a hash table
     mp = {}
+    print(type(mp))
     for i in range(n - 1):
         for j in range(i + 1, n):
+            # print(mp)
             mp[arr[i] + arr[j]] = [i, j]
+            # print(mp)
 
     # Traverse through all pairs and search
     # for X - (current pair summ).

@@ -1,5 +1,6 @@
 import sys
 
+
 def reversDigits(num):
     rev_num = str(num)[::-1]
     return int(rev_num)
@@ -28,3 +29,12 @@ def addReturn(n):
 if __name__ == '__main__':
     n = 111
     print(addReturn(n))
+
+
+'''
+n = 123
+r = 321
+s = 444
+ check as palindrom
+
+ '''
