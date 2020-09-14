@@ -30,10 +30,10 @@ def find_min_coins(c, sum):
             else:
                 arr[i][j] = min(1 + arr[i][j - c[i - 1]], arr[i - 1][j])
 
-    return arr[size][s]
+    return arr[size][sum]
 
 
 coins = [1, 3, 5]
-s = 111
+s = 101
 print("At least %s coins are required to make a sum of %s"
       % (find_min_coins(coins, s), s))
