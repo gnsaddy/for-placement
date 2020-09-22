@@ -66,6 +66,9 @@ int main()
     ll.push(4);
     ll.push(15);
     ll.push(85);
+    ll.push(89);
+    ll.push(25);
+    ll.push(45);
 
     cout << "Given linked list\n";
     ll.print();

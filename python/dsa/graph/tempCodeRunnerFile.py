@@ -1,0 +1,2 @@
+if temp <= x:
+    #     break
