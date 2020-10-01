@@ -19,7 +19,7 @@ int ways(int n)
 
 int main()
 {
-    int fcount = 10;
+    int fcount = 6;
     int res = ways(fcount);
     cout << res << endl;
 }
