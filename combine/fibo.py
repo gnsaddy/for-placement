@@ -22,5 +22,6 @@ def fibDP(n):
 
 if __name__ == "__main__":
     n = 5
+
     for i in range(0, n+1):
         print(fibRec(i+1), end=",")
